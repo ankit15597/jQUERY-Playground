@@ -96,3 +96,175 @@ Soln:
     </div>
   </div>
 </div>
+
+Q7. Apply both the btn and btn-default classes to each of your button elements
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="well">
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="well">
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+        <button class="btn btn-default"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+Q8.Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting
+these elements more easily using jQuery.
+Give each of your button elements the class target.
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="well">
+        <button class="target btn btn-default"></button>
+        <button class="target btn btn-default"></button>
+        <button class="target btn btn-default"></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="well">
+        <button class="target btn btn-default"></button>
+        <button class="target btn btn-default"></button>
+        <button class="target btn btn-default"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+Q9.Give the well on the left the id of left-well. Give the well on the right the id of right-well.
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="well" id="left-well">
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="well" id="right-well">
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+Q10.Above your left-well, inside its col-xs-6 div element, add a h4 element with the text #left-well.
+Above your right-well, inside its col-xs-6 div element, add a h4 element with the text #right-well.
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <h4>#left-well</h4>
+      <div class="well" id="left-well">
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h4>#right-well</h4>
+      <div class="well" id="right-well">
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+        <button class="btn btn-default target"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+Q11.We will also want to be able to use jQuery to target each button by its unique id.
+Give each of your buttons a unique id, starting with target1 and ending with target6.
+Make sure that target1 to target3 are in #left-well, and target4 to target6 are in #right-well.
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <h4>#left-well</h4>
+      <div class="well" id="left-well">
+        <button class="btn btn-default target" id="target1"></button>
+        <button class="btn btn-default target" id="target2"></button>
+        <button class="btn btn-default target" id="target3"></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h4>#right-well</h4>
+      <div class="well" id="right-well">
+        <button class="btn btn-default target" id="target4"></button>
+        <button class="btn btn-default target" id="target5"></button>
+        <button class="btn btn-default target" id="target6"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+Q12.Just like we labeled our wells, we want to label our buttons.
+Give each of your button elements text that corresponds to its id's selector.
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <h4>#left-well</h4>
+      <div class="well" id="left-well">
+        <button class="btn btn-default target" id="target1">#target1</button>
+        <button class="btn btn-default target" id="target2">#target2</button>
+        <button class="btn btn-default target" id="target3">#target3</button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h4>#right-well</h4>
+      <div class="well" id="right-well">
+        <button class="btn btn-default target" id="target4">#target4</button>
+        <button class="btn btn-default target" id="target5">#target5</button>
+        <button class="btn btn-default target" id="target6">#target6</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+Q13.When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
+Let's make sure that everyone knows they shouldn't actually modify any of this code directly.
+Remember that you can start a comment with <!-- and end a comment with -->
+Add a comment at the top of your HTML that says Only change code above this line.
+Soln:
+<!-- Only change code above this line -->
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <h4>#left-well</h4>
+      <div class="well" id="left-well">
+        <button class="btn btn-default target" id="target1">#target1</button>
+        <button class="btn btn-default target" id="target2">#target2</button>
+        <button class="btn btn-default target" id="target3">#target3</button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h4>#right-well</h4>
+      <div class="well" id="right-well">
+        <button class="btn btn-default target" id="target4">#target4</button>
+        <button class="btn btn-default target" id="target5">#target5</button>
+        <button class="btn btn-default target" id="target6">#target6</button>
+      </div>
+    </div>
+  </div>
+</div>
