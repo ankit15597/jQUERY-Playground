@@ -1,0 +1,98 @@
+Q1. We'll build a jQuery playground, which we'll soon put to use in our jQuery challenges.
+
+To start with, create an h3 element, with the text jQuery Playground.
+
+Color your h3 element with the text-primary Bootstrap class, and center it with the text-center Bootstrap class
+
+Soln:
+<h3 class="text-primary text-center">jQuery Playground</h3>
+
+Q2. Now let's make sure all the content on your page is mobile-responsive.
+
+Let's nest your h3 element within a div element with the class container-fluid
+
+Soln:
+<div class="container-fluid">
+<h3 class="text-primary text-center">jQuery Playground</h3>
+</div>
+
+Q3. Now we'll create a Bootstrap row for our inline elements.
+
+Create a div element below the h3 tag, with a class of row
+
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+<div class = row>
+  </div>
+</div>
+
+Q4. Now that we have a Bootstrap Row, let's split it into two columns to house our elements.
+
+Create two div elements within your row, both with the class col-xs-6
+
+Soln:
+<div class="container-fluid">
+
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+
+  <div class="row">
+
+    <div class = "col-xs-6">
+
+    </div>
+
+    <div class = "col-xs-6"
+
+    </div>
+
+
+
+  </div>
+
+</div>
+
+
+Q5. Bootstrap has a class called well that can create a visual sense of depth for your columns.
+
+Nest one div element with the class well within each of your col-xs-6 div elements.
+
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row ">
+    <div class="col-xs-6">
+
+      <div class = well>
+      </div>
+
+    </div>
+    <div class="col-xs-6">
+      <div class="well">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+Q6.Nest three button elements within each of your well div elements
+Soln:
+<div class="container-fluid">
+  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="well">
+        <button></button>
+        <button></button>
+        <button></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="well">
+        <button></button>
+        <button></button>
+        <button></button>
+       </div>
+    </div>
+  </div>
+</div>
